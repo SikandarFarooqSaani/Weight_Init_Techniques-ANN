@@ -16,8 +16,7 @@ In neural networks, we cannot simply initialize weights with zero or random high
 * **Dataset:** Classification dataset sourced from Kaggle.
 * **Features:** $X$ and $Y$ data points for binary classification.
 
-**[<img width="559" height="413" alt="glo1" src="https://github.com/user-attachments/assets/e7e827b8-f79f-403d-8426-e183fd279280" />
-: Scatter Plot of Dataset]**
+[<img width="559" height="413" alt="glo1" src="https://github.com/user-attachments/assets/e7e827b8-f79f-403d-8426-e183fd279280" />
 
 ---
 
@@ -41,12 +40,12 @@ In neural networks, we cannot simply initialize weights with zero or random high
 * **Verification:** We ran `get_weights()` again to confirm they changed from the initial state (training happened).
 
 ### Analysis
-**<img width="546" height="413" alt="glo2" src="https://github.com/user-attachments/assets/9ee78962-e016-43ad-bdc5-c79b2dfb4b06" />
-**
+<img width="546" height="413" alt="glo2" src="https://github.com/user-attachments/assets/9ee78962-e016-43ad-bdc5-c79b2dfb4b06" />
+
 * *Observation:* The decision boundary shows a slight underfit.
 
-**<img width="567" height="432" alt="glo3" src="https://github.com/user-attachments/assets/fb84cb27-3f13-4cc4-9824-863cc57e5e84" />
-**
+<img width="567" height="432" alt="glo3" src="https://github.com/user-attachments/assets/fb84cb27-3f13-4cc4-9824-863cc57e5e84" />
+
 * *Observation:* One distribution is perfectly normal, while the $Y$ distribution is "kind of" normally distributed. This indicates the initialization worked reasonably well.
 
 ---
@@ -63,8 +62,8 @@ In neural networks, we cannot simply initialize weights with zero or random high
 * **Observation:** The accuracy increased **more** and loss decreased **more** compared to the Tanh/Glorot model.
 
 ### Final Analysis
-**<img width="546" height="413" alt="glo4" src="https://github.com/user-attachments/assets/e0b5e967-f238-4838-9a6d-b63b50f75280" />
-**
+<img width="546" height="413" alt="glo4" src="https://github.com/user-attachments/assets/e0b5e967-f238-4838-9a6d-b63b50f75280" />
+
 * *Observation:* The decision boundary is excellent. It is not overfit and not underfit—it captures the data structure well.
 
 ---
